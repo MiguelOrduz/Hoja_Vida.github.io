@@ -1,0 +1,107 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #perfil {
+            float: left;
+            margin: 20px;
+        }
+
+        #perfil img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #007BFF;
+        }
+
+        #informacion {
+            margin-left: 200px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #007BFF;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoja de Vida</h1>
+    </header>
+    <div id="perfil">
+        <img src="foto HV.jpeg" alt="foto HV">
+    </div>
+    <div id="informacion">
+        <h2>Datos Personales</h2>
+        <table>
+            <tr>
+                <th>Nombre:</th>
+                <td>Luis Miguel Orduz Lavao</td>
+            </tr>
+            <tr>
+                <th>Fecha de Nacimiento:</th>
+                <td>05 de Enero de 2004</td>
+            </tr>
+            <tr>
+                <th>Dirección:</th>
+                <td>Calle 80 Sur #77g-49 </td>
+            </tr>
+            <tr>
+                <th>Teléfono:</th>
+                <td>3142415126</td>
+            </tr>
+            <tr>
+                <th>Correo Electrónico:</th>
+                <td>luis.orduzl@cun.edu.co</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        &copy; 2023 - Hoja de Vida
+    </footer>
+</body>
+</html>
